@@ -23,7 +23,16 @@ h1 {
     justify-content: center;
 }
 
-.in_focus_image {
+.image {
+    max-width: 350px;
+}
+
+#earth_in_focus, #earth_not_in_focus {
     padding-right: 50px;
 }
 
+p {
+    margin-top: -10px;
+    max-width: 600px;
+    margin-bottom: 50px;
+}
