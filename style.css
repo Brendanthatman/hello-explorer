@@ -1,8 +1,21 @@
 body {
     background-color: #121619;
     color: #f0fff1;
+    margin: 100px 430px;
+    font-family: "Funnel Sans", sans-serif;
 }
 
 h1 {
-    color: #f0fff1; 
+    color: #f0fff1;
+    font-size: 60px; 
+}
+
+.images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.in_focus_image {
+    padding-right: 50px;
 }
