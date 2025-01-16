@@ -23,16 +23,29 @@ h1 {
     justify-content: center;
 }
 
-.image {
+.earth_image {
     max-width: 350px;
+}
+
+.moon_image {
+    max-width: 193px;
 }
 
 #earth_in_focus, #earth_not_in_focus {
     padding-right: 50px;
 }
 
+#earth_not_in_focus, #moon_not_in_focus {
+    opacity: 40%;
+}
+
 p {
     margin-top: -10px;
     max-width: 600px;
     margin-bottom: 50px;
+    line-height: 1.4em;
+}
+
+a:hover img {
+    max-width: 360px;
 }
